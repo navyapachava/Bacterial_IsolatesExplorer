@@ -1,0 +1,151 @@
+.vertical-menu {
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  background: #eee;
+  overflow-x: hidden;
+  
+  height: 100%;		
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #ae9fc1;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+		header {
+			background-color: #ae9fc1;
+			color: #2D3427;
+			padding: 10px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		
+		header .logo {
+			float: left;
+			font-size: 24px;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		header .menu-toggle {
+			float: right;
+			cursor: pointer;
+			margin-right: 10px;
+			display: none;
+		}
+		
+		header .menu-toggle span {
+			display: block;
+			width: 30px;
+			height: 5px;
+			background-color: #fff;
+			margin-bottom: 5px;
+		}
+		.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+ 
+} 	
+ .img {
+  border-radius: 60%;
+  margin-top:auto;
+  
+}
+
+
+.img a:hover {
+  background-color: #ccc;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row {
+  float: top;
+  height: 33.33%;
+}`
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  font-size:medium;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.main {
+  margin-left: 230px; /* Same width as the sidebar + left position in px */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  color: #020c08;
+  margin-top: 60px;
+}
+.main p {
+  margin-left: 20px; /* Same width as the sidebar + left position in px */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  color: #020c08;
+  margin-top: 20px;
+}
